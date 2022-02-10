@@ -1,0 +1,84 @@
+
+:root {
+  --black: #101820FF;
+  --yellow: #FEE715FF;
+  --grey: rgb(40, 48, 56);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.App {
+  display: grid;
+  place-items: center;
+  background-color: darkgrey;
+  min-height: 100vh;
+}
+.homePage {
+  display: flex;
+  flex-flow: row wrap;
+  min-width: 90vw;
+  background-color: lightgrey;
+  margin: 20px;
+  box-shadow: 1px 4px 20px black;
+}
+
+@media screen and (max-width: 600px) {
+  .homePage {
+    flex-flow: column;
+  }
+  .sidebarSearch {display: none;}
+  .sidebarChats {display: none;}
+  .showRooms {display: block;}
+  .chat {
+    height: 100px !important;
+    overflow: hidden;
+  }
+  .chatBody {
+    height: 50px !important;
+  }
+}
+/* theme controlling */
+.sidebar {
+  background-color: var(--black);
+  color: white;
+}
+.sidebar .MuiSvgIcon-root { color: white; }
+.sidebarSearch { background-color: var(--black) !important; }
+.showRooms__btn { background-color: var(--grey) !important; }
+.sidebarChats { background-color: var(--grey) !important; }
+.sidebarChat { background-color: var(--black) !important; }
+/* chat */
+.chatHeader {
+  background-color: var(--black);
+  color: white;
+}
+.chatHeader .MuiSvgIcon-root { color: white; }
+.chatBody {
+  background-color: var(--grey) !important;
+}
+.msgAuthor { color: white; }
+.chatMsg {
+  background-color: var(--yellow) !important;
+  color: var(--black);
+}
+.sended__msg {
+  background-color: var(--black) !important;
+  color: var(--yellow);
+}
+.chatFooter {
+  background-color: var(--black);
+}
+.chatFooter .MuiSvgIcon-root {
+  color: white;
+}

@@ -1,0 +1,25 @@
+
+.authPage {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.title {
+  margin-bottom: 40px;
+}
+.authBtn {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.authBtn h1 {
+  font-size: 1.4rem;
+}
