@@ -19,7 +19,7 @@ Authetication:
   ! for Authorized redirect URIs you must set:
   http://localhost:4000/auth/google/callback
 
-PUSHER IS USED FOR SHOW NEW DATA CHANGES IN FRONTEND
+PUSHER IS USED FOR SHOW NEW DATA CHANGES IN FRONTEND.
   for use it you need to add PUSHER_ID and PUSHER_KEY in .env from your pusher api
 
 UI : 
