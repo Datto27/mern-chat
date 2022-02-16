@@ -1,4 +1,4 @@
-MERN STACK chat application with different rooms.
+# MERN STACK chat application with different rooms.
 
 Used Tools:
 
@@ -16,9 +16,8 @@ For Authentication here is used google api and users can sign in chat with their
 
 connect your mongodb atlas into /server/index.js
 
-SERVER:
-
-Authetication: 
+# SERVER:
+# Authetication: 
 
   for auth documentation visit this page:
   
@@ -38,6 +37,6 @@ PUSHER IS USED FOR SHOW NEW DATA CHANGES IN FRONTEND.
 
   for use it you need to add PUSHER_ID and PUSHER_KEY in .env from your pusher api
 
-UI : 
+# UI : 
 
   theme controlls inside index.css
