@@ -9,8 +9,9 @@ Used Tools:
 <img src="https://img.shields.io/badge/oAuth-%23000000.svg?&style=for-the-badge&logo=oAuth&logoColor=white" />
 <img src="https://img.shields.io/badge/Pusher-%230000FF.svg?&style=for-the-badge&logoColor=white" />
 
-Not added room joining functional,
-here is used pusher api for reflect on the front as soon as data changes in db....
+Not added room joining functional.
+
+Here is used pusher api for reflect on the front as soon as data changes in db....
 For Authentication here is used google api and users can sign in chat with their gmails
 
 connect your mongodb atlas into /server/index.js
